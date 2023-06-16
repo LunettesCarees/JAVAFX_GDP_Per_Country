@@ -64,7 +64,7 @@ public class ChartViewController implements Initializable {
 
     @FXML
     void viewTable_onClick(ActionEvent event) throws IOException {
-        SceneChanger.changeScenes(event, "table-view.fxml", "Table View");
+        SceneChanger.changeScenes(event, "Views/table-view.fxml", "Table View");
     }
 
     public LineChart<String, Integer> getLineChart() {

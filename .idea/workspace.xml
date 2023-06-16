@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30531e49-db2e-4de6-aab9-13a46d702adc" name="Changes" comment="Create a line chart to randomly show at max 8 countries' GDPs">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/ChartViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/Controllers/ChartViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/Models/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/DBUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/Utilities/DBUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/SceneChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/Utilities/SceneChanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/TableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/Controllers/TableViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/chart-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/chart-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/table-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/table-view.fxml" afterDir="false" />
+    <list default="true" id="30531e49-db2e-4de6-aab9-13a46d702adc" name="Changes" comment="Added CSS &amp; icon">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/chart-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/Views/chart-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/Images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/Stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/table-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/Views/table-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
       <workItem from="1686869705395" duration="1976000" />
       <workItem from="1686872336777" duration="413000" />
       <workItem from="1686872764444" duration="447000" />
-      <workItem from="1686874338154" duration="11850000" />
+      <workItem from="1686874338154" duration="12171000" />
     </task>
     <task id="LOCAL-00001" summary="Added table view and its controller">
       <created>1686875966941</created>
@@ -119,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686884574103</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added CSS &amp; icon">
+      <created>1686886464160</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686886464160</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added CSS &amp; icon">
+      <created>1686886480790</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686886480790</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +139,7 @@
     <MESSAGE value="Populate table with data" />
     <MESSAGE value="Modified ChartViewController" />
     <MESSAGE value="Create a line chart to randomly show at max 8 countries' GDPs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a line chart to randomly show at max 8 countries' GDPs" />
+    <MESSAGE value="Added CSS &amp; icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CSS &amp; icon" />
   </component>
 </project>

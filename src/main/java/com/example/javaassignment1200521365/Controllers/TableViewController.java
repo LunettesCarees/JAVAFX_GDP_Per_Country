@@ -55,7 +55,7 @@ public class TableViewController implements Initializable {
 
     @FXML
     void viewChart_onClick(ActionEvent event) throws IOException {
-        SceneChanger.changeScenes(event, "chart-view.fxml", "Chart View");
+        SceneChanger.changeScenes(event, "Views/chart-view.fxml", "Chart View");
     }
 
 }
