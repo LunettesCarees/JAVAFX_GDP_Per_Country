@@ -15,5 +15,6 @@
 #tableView{
     -fx-background-color: #9AC5F4;
     -fx-font-size: 10px;
+    -fx-font-weight: bold;
 }
 
