@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaassignment1200521365.TableViewController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaassignment1200521365.Controllers.TableViewController">
    <children>
       <BorderPane layoutX="175.0" layoutY="136.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
@@ -32,9 +31,8 @@
             </TableView>
          </center>
          <bottom>
-            <HBox alignment="CENTER" spacing="30.0" BorderPane.alignment="CENTER">
+            <HBox alignment="CENTER" prefHeight="42.0" prefWidth="600.0" spacing="30.0" BorderPane.alignment="CENTER">
                <children>
-                  <Button mnemonicParsing="false" text="Button" />
                   <Button mnemonicParsing="false" onAction="#viewChart_onClick" text="View Chart" />
                </children>
             </HBox>

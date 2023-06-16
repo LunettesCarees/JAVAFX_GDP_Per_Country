@@ -1,0 +1,9 @@
+.root{
+    -fx-background-color: #C4D7B2;
+}
+
+#lineChartTitle{
+    -fx-font-size: 15px;
+    -fx-font-weight: lighter;
+}
+

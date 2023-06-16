@@ -1,5 +1,8 @@
-package com.example.javaassignment1200521365;
+package com.example.javaassignment1200521365.Controllers;
 
+import com.example.javaassignment1200521365.Models.Country;
+import com.example.javaassignment1200521365.Utilities.DBUtility;
+import com.example.javaassignment1200521365.Utilities.SceneChanger;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -7,6 +10,7 @@ import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
+import javafx.scene.control.Label;
 
 import java.io.IOException;
 import java.net.URL;
@@ -22,6 +26,9 @@ public class ChartViewController implements Initializable {
     private LineChart<String, Integer> lineChart;
 
     @FXML
+    private Label lineChartTitle;
+
+    @FXML
     private NumberAxis numberAxis;
 
     @Override
@@ -30,7 +37,6 @@ public class ChartViewController implements Initializable {
 
         categoryAxis.setLabel("Year");
         numberAxis.setLabel("GDP (millions in USD)");
-        lineChart.setTitle("GDP By Country From 2017 to 2021");
 
         ArrayList<Country> countries = DBUtility.retrieveCountriesFromDB();
 

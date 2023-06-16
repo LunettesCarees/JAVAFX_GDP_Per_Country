@@ -1,4 +1,4 @@
-package com.example.javaassignment1200521365;
+package com.example.javaassignment1200521365.Models;
 
 public class Country {
     private int countryId;

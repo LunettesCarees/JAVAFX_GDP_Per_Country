@@ -1,5 +1,6 @@
-package com.example.javaassignment1200521365;
+package com.example.javaassignment1200521365.Utilities;
 
+import com.example.javaassignment1200521365.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;

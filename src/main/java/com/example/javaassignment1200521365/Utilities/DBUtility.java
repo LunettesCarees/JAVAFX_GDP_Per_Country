@@ -1,4 +1,6 @@
-package com.example.javaassignment1200521365;
+package com.example.javaassignment1200521365.Utilities;
+
+import com.example.javaassignment1200521365.Models.Country;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
