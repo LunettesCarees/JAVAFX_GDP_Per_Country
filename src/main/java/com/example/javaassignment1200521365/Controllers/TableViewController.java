@@ -6,6 +6,7 @@ import com.example.javaassignment1200521365.Utilities.SceneChanger;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -17,6 +18,9 @@ import java.util.ResourceBundle;
 public class TableViewController implements Initializable {
     @FXML
     private TableView<Country> tableView;
+
+    @FXML
+    private Label tableLabel;
 
     @FXML
     private TableColumn<Country, Integer> idColumn;
