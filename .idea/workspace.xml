@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30531e49-db2e-4de6-aab9-13a46d702adc" name="Changes" comment="Added table view and its controller">
+    <list default="true" id="30531e49-db2e-4de6-aab9-13a46d702adc" name="Changes" comment="Modified table view and its controller">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/SceneChanger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/ChartViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/ChartViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/TableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaassignment1200521365/TableViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/chart-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/chart-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/table-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaassignment1200521365/table-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <workItem from="1686869705395" duration="1976000" />
       <workItem from="1686872336777" duration="413000" />
       <workItem from="1686872764444" duration="447000" />
-      <workItem from="1686874338154" duration="2795000" />
+      <workItem from="1686874338154" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="Added table view and its controller">
       <created>1686875966941</created>
@@ -75,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686875966941</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modified table view and its controller">
+      <created>1686877266904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686877266904</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added table view and its controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added table view and its controller" />
+    <MESSAGE value="Modified table view and its controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified table view and its controller" />
   </component>
 </project>
